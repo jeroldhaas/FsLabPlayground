@@ -1,7 +1,7 @@
 source https://nuget.org/api/v2
 
 nuget FSharp.Formatting
-nuget FSharpXmlDoc
+#nuget FSharpXmlDoc
 
 nuget NUnit 
 nuget NUnit.Runners
@@ -16,8 +16,14 @@ nuget FSharpx
 nuget FSharpx.Collections
 nuget FSharpx.Async
 nuget FSharp.Data
-nuget FSharp.Data.Toolbox
+#nuget FSharp.Data.Toolbox # deprecated / renamed?
 
 nuget FAKE
 nuget SourceLink.Fake
+
+nuget FsLab
+nuget Deedle
+
+nuget encog-dotnet-core
+
 github fsharp/FAKE modules/Octokit/Octokit.fsx

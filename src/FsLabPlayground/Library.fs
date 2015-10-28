@@ -1,5 +1,19 @@
 namespace FsLabPlayground
 
+// Encog
+open Encog.App
+open Encog.Bot
+open Encog.Cloud
+open Encog.Engine
+open Encog.ML
+open Encog.Neural
+open Encog.Parse
+open Encog.Persist
+
+// Encog Utils
+open Encog.MathUtil
+open Encog.Util
+
 /// Documentation for my library
 ///
 /// ## Example
@@ -14,4 +28,3 @@ module Library =
   /// ## Parameters
   ///  - `num` - whatever
   let hello num = 42
-
