@@ -1,0 +1,15 @@
+-- Script Date: 2016-01-10 01:54  - ErikEJ.SqlCeScripting version 3.5.2.56
+CREATE TABLE [Financial] (
+  [dataframeid] uniqueidentifier NOT NULL
+, [symbol] nvarchar(24) NOT NULL
+, [datetime] datetime NOT NULL
+, [open] float DEFAULT  NOT NULL
+, [high] float DEFAULT  NOT NULL
+, [low] float DEFAULT  NOT NULL
+, [close] float DEFAULT  NOT NULL
+, [volume] bigint DEFAULT  NOT NULL
+, [milliseconds] float DEFAULT  NOT NULL
+);
+GO
+ALTER TABLE [Financial] ADD CONSTRAINT [PK_Financial] PRIMARY KEY ([dataframeid]);
+GO

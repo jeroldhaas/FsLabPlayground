@@ -2,6 +2,9 @@ module FsLabPlayground.Tests
 
 open FsLabPlayground
 open NUnit.Framework
+open FsCheck
+open FsCheck.Experimental
+open FsCheck.NUnit
 
 [<Test>]
 let ``hello returns 42`` () =

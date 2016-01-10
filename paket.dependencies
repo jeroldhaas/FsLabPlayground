@@ -18,6 +18,9 @@ nuget FSharpx.Async
 nuget FSharp.Data
 #nuget FSharp.Data.Toolbox # deprecated / renamed?
 
+# Database
+nuget FSharp.ORM
+
 nuget FAKE
 nuget SourceLink.Fake
 
